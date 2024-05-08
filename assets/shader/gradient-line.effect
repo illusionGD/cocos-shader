@@ -54,6 +54,7 @@ CCProgram sprite-vs %{
     #endif
 
     uv0 = a_texCoord;
+    
     #if SAMPLE_FROM_RT
       CC_HANDLE_RT_SAMPLE_FLIP(uv0);
     #endif
